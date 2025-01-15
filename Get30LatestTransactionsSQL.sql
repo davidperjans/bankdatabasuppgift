@@ -1,0 +1,1 @@
+SELECT * FROM Transactions WHERE TransactionDate >= DATEADD(DAY, -30, CURRENT_TIMESTAMP);
